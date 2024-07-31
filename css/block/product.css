@@ -1,0 +1,65 @@
+.products-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.products-content span {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+.products-btn {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.products-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  width: 600px;
+  border: 1px solid rgb(222, 214, 214);
+}
+
+.card-content {
+  padding: 20px 32px 32px 32px;
+}
+
+.card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-actions span {
+font-size: 30px;
+font-weight: 500;
+line-height: 32px;
+text-align: right;
+}
+.card-action {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+.card-action button {
+  padding: 16px 32px;
+  background: #402f2c;
+  border: 1px solid gray;
+  color: white;
+  cursor: pointer;
+}
+.card-action button:last-child {
+  background-color: transparent;
+  border: 1px solid rgb(222, 214, 214) q;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+}

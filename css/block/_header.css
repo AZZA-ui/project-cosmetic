@@ -1,0 +1,49 @@
+
+.first{
+    background-color: #f9f6f5;
+}
+.header{
+    padding: 40px 0;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+.blocks {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+.menu{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.menu-line {
+    width:20px;
+    border: 1px solid black;
+    position: relative;
+}
+.menu-line::after{
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -1px;
+    border: 1px solid black;
+    width: 80%;
+}
+.menu-line::before{
+    content: "";
+    position: absolute;
+    bottom: 6px;
+    right: -1px;
+    border: 1px solid black;
+    width: 80%;
+}

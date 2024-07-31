@@ -1,0 +1,32 @@
+.description {
+    margin-top: 150px;
+}
+.description .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description-content h2 {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 70px;
+    color: #000000;
+}
+.description-content p{
+    width: 608px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #555555;
+    margin-top: 20px;
+}
+.description-button {
+    padding: 16px 32px;
+    background-color: #402f2c;
+    color: #ffffff;
+    font-size: 18pxll;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 50px;
+    cursor: pointer;
+}
